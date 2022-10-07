@@ -34,7 +34,7 @@ utils.load_model(elbo, param.model_folder, param.name, device)
 elbo.eval()
 
 wandb.init(
-    mode="online",  # online/disabled
+    mode="disabled",  # online/disabled
     project="AVMS",
     group=param.group,
     tags=param.tags,

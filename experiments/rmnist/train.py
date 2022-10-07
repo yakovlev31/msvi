@@ -41,7 +41,7 @@ bma = utils.BatchMovingAverage(k=10)
 data_transform = data_utils.get_data_transform()
 
 wandb.init(
-    mode="online",  # online/disabled
+    mode="disabled",  # online/disabled
     project="AVMS",
     group=param.group,
     tags=param.tags,

@@ -4,6 +4,5 @@ import msvi.model  # noqa
 import msvi.posterior  # noqa
 import msvi.elbo  # noqa
 import msvi.rec_net  # noqa
-import msvi.lmn  # noqa
 
 import msvi.utils  # noqa
