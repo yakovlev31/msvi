@@ -137,5 +137,4 @@ models/
 img*/
 *.gz
 csv_data/
-*.png
 *.npy
