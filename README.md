@@ -17,14 +17,14 @@ pip install -e .
 
 First, you might want to generate the data. Data generating notebooks are located at `./experiments/data/scripts/`. Simply launch one of the notebooks to generate a dataset. Datasets are saved to `./experiments/data/datasets/`.
 
-If you want to use your own dataset, follow the scipts in `./msvi/utils/`.
+If you want to use your own dataset, follow the scripts in `./msvi/utils/`.
 
 ### Training/validation/testing
 
 ```bash
-python experiments/{pendulum,rmnist,bballs}/train.py --name mymodel
-python experiments/{pendulum,rmnist,bballs}/val.py --name mymodel
-python experiments/{pendulum,rmnist,bballs}/test.py --name mymodel
+python experiments/{pendulum,rmnist,bballs}/train.py --name mymodel --device cuda
+python experiments/{pendulum,rmnist,bballs}/val.py --name mymodel --device cuda
+python experiments/{pendulum,rmnist,bballs}/test.py --name mymodel --device cuda
 ```
 
-See `./msvi/utils/{pendulum,rmnist,bballs}.py` for default command line arguments.
+See `./msvi/utils/{pendulum,rmnist,bballs}.py` for all command line arguments.

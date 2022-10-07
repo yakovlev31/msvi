@@ -3,16 +3,12 @@ protobuf==3.20.*
 numpy==1.21.2
 scikit-learn==1.0.2
 scipy==1.7.3
-einops==0.4.1
-torch==1.11.0
-torch-scatter==2.0.9
-torchaudio==0.11.0
-torchdiffeq @ git+https://github.com/rtqichen/torchdiffeq@97e93deddcb18f67330f0b9caa75808f38b94c89
-torchmetrics==0.9.0
-torchtyping==0.1.4
-torchvision==0.12.0
 matplotlib==3.5.1
 seaborn==0.11.2
+torch==1.11.0
+torchdiffeq @ git+https://github.com/rtqichen/torchdiffeq@97e93deddcb18f67330f0b9caa75808f38b94c89
+torchvision==0.12.0
+einops==0.4.1
 tqdm==4.63.0
 pillow==9.0.1
 jupyter==1.0.0
