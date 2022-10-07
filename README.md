@@ -1,5 +1,7 @@
 # Latent Neural ODEs with Sparse Bayesian Multiple Shooting
 
+Official code for [Latent Neural ODEs with Sparse Bayesian Multiple Shooting](https://openreview.net/forum?id=moIlFZfj_1b).
+
 ![Method overview](figures/main_figure.png)
 
 ## Installation
